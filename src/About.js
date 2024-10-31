@@ -1,7 +1,7 @@
 
 export default function About() {
     return (
-                <div className="row">
+                <div className="row aboutMe">
                     <div className={"col col-12"}style={{margin:"18px"}}>
                         <h2>wh0_Am_1?</h2>
                     </div>
