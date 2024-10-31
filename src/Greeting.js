@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import Typist from "react-typist";
-import "react-typist/dist/Typist.css";
-import {ReactTyped, Typed} from "react-typed";
+import React from "react";
+import {ReactTyped} from "react-typed";
 export default function Greeting() {
   const texts = [
     "Nice to meet you!",
@@ -11,7 +9,7 @@ export default function Greeting() {
     "A BIT??!!!",
     "Nevermind.....",
   ];
-  const [currentTextCounter, setCurrentTextCounter] = useState(0);
+
 
   return (
       <div className={"row text-center row-cols-2"} style={{height: "550px"}}>
